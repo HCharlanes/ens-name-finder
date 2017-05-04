@@ -17,8 +17,6 @@ function mix2 () {
 		var indexWord2 = Math.floor((Math.random() * 8) + 1) -1
 		var lowerWordIndex;
 		var higherWordIndex;
-		console.log(indexWord1)
-		console.log(indexWord2)
 		if (indexWord2 == indexWord1) {indexWord2++;}
 		if (indexWord1 > indexWord2) {
 			seedWord = [words[1],words[0]]
@@ -30,9 +28,6 @@ function mix2 () {
 			lowerWordIndex = indexWord1
 			higherWordIndex = indexWord2
 		}
-		console.log(lowerWordIndex)
-		console.log(higherWordIndex)
-		console.log(seedWord)
 		for (var j=0; j<lowerWordIndex; j++) {
 			seedWord.splice(0,0,letters[Math.floor((Math.random() * 10) + 1) -1])
 			// console.log(seedWord)
