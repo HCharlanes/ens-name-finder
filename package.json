@@ -1,0 +1,25 @@
+{
+  "name": "ens-name-finder",
+  "version": "0.1.0",
+  "description": "Simple script to find ENS available names",
+  "main": "ensfinder.js",
+  "scripts": {
+    "test": "no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "ens",
+    "name",
+    "bid",
+    "ethereum"
+  ],
+  "author": "hcharlanes",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "hex2decimal": "^0.1.2",
+    "solidity-sha3": "^0.4.1"
+  }
+}
