@@ -1,6 +1,6 @@
 # ens-name-finder
 Short script to find a name available to bid on for Ethereum Name Service.
-Super simple, just for fun :)
+Super simple, just for fun and to try the ENS bidding process :)
 
 ### Set up
 
