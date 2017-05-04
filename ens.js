@@ -7,7 +7,7 @@ var hash = sha3('salutssasslut');
 
 var words;
 var letters = ['0','1','2','3','4','5','6','7','8','9']
-var lettersTroll = ['wow','such','doge','moon','wow','420','fun','nice','lotz','much']
+var lettersTroll = ['wow','such','doge','moon','yolo','420','fun','nice','lotz','much']
 var seedWord
 
 function mix2 () {
