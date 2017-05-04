@@ -80,7 +80,7 @@ function mix1 () {
 
 
 function timeLeftBool (string) {
-	var timeLeftHour = startDate + 8*7*24*hex2decimal(sha3(string))/(2**256) - now
+	var timeLeftHour = startDate + 8*7*24*hex2decimal(sha3(string))/(Math.pow(2, 256)) - now
 	var timeLeftDay = timeLeftHour/24	
 	if (timeLeftHour<2) {return true}
 	else return false
