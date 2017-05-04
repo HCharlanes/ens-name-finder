@@ -8,7 +8,7 @@ Super simple, just for fun :)
 $ git clone https://github.com/HCharlanes/ens-name-finder
 ```
 ```
-$ cd cd ens-name-finder/
+$ cd ens-name-finder/
 ```
 ```
 $ npm install
