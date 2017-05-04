@@ -24,11 +24,10 @@ $ node ens.js word1
 
 output: 
 ```
-Found a Name to bid on!! Name: 5word1160
+Found a Name to bid on!! Name: word136
+Found a Name to bid on!! Name: 9673word1
 Found a Name to bid on!! Name: 1word19
-Found a Name to bid on!! Name: 1word19
-Found a Name to bid on!! Name: 1word180
-Found a Name to bid on!! Name: 2020word1
+
 ```
 
 Finding available names including two words: 
@@ -41,12 +40,16 @@ output:
 ```
 Found a Name to bid on!! Name: 99word1word2
 Found a Name to bid on!! Name: 3word237word1
-Found a Name to bid on!! Name: word2946word160
-Found a Name to bid on!! Name: word17878word29
-Found a Name to bid on!! Name: 5word2word17171
-Found a Name to bid on!! Name: word170333word25
-Found a Name to bid on!! Name: 56word1992word24
-Found a Name to bid on!! Name: 3word27701word1
-Found a Name to bid on!! Name: 55716word1word29
-Found a Name to bid on!! Name: word2523word10
+```
+
+### Doge Mode
+
+```
+$ node ens.js doge word1
+```
+
+output: 
+```
+Found a Name to bid on!! Name: wowwowsuchword1wow
+Found a Name to bid on!! Name: funfunlotzword1420
 ```
